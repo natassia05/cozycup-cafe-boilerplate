@@ -30,22 +30,20 @@ Cozy Cup Cafe is a simple and cute cat-themed website for a coffee shop. It show
 
 ## About the Authors
 
-### Author 1
 <img src="https://github.com/nyfastra.png" alt="Nicole Cabral" width="150" style="border-radius: 50%;">
 
-**Name:** **Nicole Ynarhosenne Faith F. Cabral**
+**Name:** **Nicole Ynarhosenne Faith F. Cabral**<br>
 **Email:** **cabralnicolef@gmail.com** 
 
-[![Facebook](https://raw.githubusercontent.com/gauravghongde/social-icons/master/PNG/Color/Facebook.png)](https://facebook.com/nyfarious)
-[![GitHub](https://raw.githubusercontent.com/gauravghongde/social-icons/master/PNG/Color/Github.png)](https://github.com/nyfastra)
+<a href="https://facebook.com/nyfarious"><img src="https://raw.githubusercontent.com/gauravghongde/social-icons/master/PNG/Color/Facebook.png" width="32" alt="Facebook"></a>
+<a href="https://github.com/nyfastra"><img src="https://raw.githubusercontent.com/gauravghongde/social-icons/master/PNG/Color/Github.png" width="32" alt="GitHub"></a>
 
 ---
 
-### Author 2
 <img src="https://github.com/natassia05.png" alt="Natassia Datu Amir Bahar" width="150" style="border-radius: 50%;">
 
-**Name:** **Dayang Natassia Erliya M. Datu Amir Bahar**
+**Name:** **Dayang Natassia Erliya M. Datu Amir Bahar**<br>
 **Email:** **natassiaerliya@gmail.com**  
 
-[![Facebook](https://raw.githubusercontent.com/gauravghongde/social-icons/master/PNG/Color/Facebook.png)](https://facebook.com/natassia.erlya)
-[![GitHub](https://raw.githubusercontent.com/gauravghongde/social-icons/master/PNG/Color/Github.png)](https://github.com/natassia05)
+<a href="https://facebook.com/natassia.erlya"><img src="https://raw.githubusercontent.com/gauravghongde/social-icons/master/PNG/Color/Facebook.png" width="32" alt="Facebook"></a>
+<a href="https://github.com/natassia05"><img src="https://raw.githubusercontent.com/gauravghongde/social-icons/master/PNG/Color/Github.png" width="32" alt="GitHub"></a>
