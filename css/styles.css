@@ -110,34 +110,58 @@ ul {
 }
 
 .hero {
+    position: relative;
+    padding: 100px 0;
+    background: linear-gradient(135deg, var(--pink-soft) 0%, var(--blue-soft) 100%);
     text-align: center;
-    padding: 150px 0;
-    background-image: url('hero-bg.jpg');
-    background-size: cover;
-    color: white;
+    border-bottom: 4px dashed var(--pink-primary);
+}
+
+.pixel-cat-hero-box {
+  margin-bottom: 20px;
+}
+
+.pixel-cat-hero {
+  width: 200px;
+  height: auto;
+  object-fit: contain;
+  image-rendering: pixelated;
+  filter: drop-shadow(0 6px 10px rgba(247, 168, 196, 0.4));
+  animation: floatCat 2.5s ease-in-out infinite alternate;
+}
+
+@keyframes floatCat {
+  0% { 
+    transform: translateY(0px); 
+  }
+  100% { 
+    transform: translateY(-10px); 
+  }
+}
+
+.hero-content {
+  width: 750px;
 }
 
 .hero h1 {
-    font-size: 36px;
-    margin-bottom: 20px;
+    font-size: 3rem;
+    color: var(--text-main);
+    margin-bottom: 16px;
 }
 
 .hero p {
-    font-size: 18px;
-    margin-bottom: 40px;
+    font-size: 1.2rem;
+    color: var(--text-muted);
+    margin-bottom: 32px;
+    width: 600px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
-.cta-button {
-    display: inline-block;
-    padding: 10px 20px;
-    background-color: #4c3c32;
-    color: white;
-    text-decoration: none;
-    border-radius: 5px;
-}
-
-.cta-button:hover {
-    background-color: #7e685b;
+.hero-buttons {
+    display: flex;
+    justify-content: center;
+    gap: 16px;
 }
 
 .menu {
