@@ -58,31 +58,55 @@ ul {
   list-style: none;
 }
 
-nav {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+.header {
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+  background-color: rgba(255, 255, 255, 0.9);
+  backdrop-filter: blur(8px);
+  border-bottom: 3px solid var(--pink-soft);
 }
 
-.logo img {
-    max-width: 100px;
+.nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 80px;
 }
 
-nav ul {
-    list-style: none;
-    display: flex;
-    gap: 20px;
+.logo {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  font-size: 1.5rem;
+  font-weight: 700;
+  color: var(--pink-hover);
 }
 
-nav a {
-    text-decoration: none;
-    color: #4c3c32;
-    font-weight: bold;
-    transition: color 0.3s;
+.logo span {
+  color: var(--blue-hover);
 }
 
-nav a:hover {
-    color: #7e685b;
+.pixel-cat-logo {
+  width: 72px;
+  height: 72px;
+  object-fit: contain;
+  image-rendering: pixelated;
+}
+
+.nav-links {
+  display: flex;
+  gap: 32px;
+}
+
+.nav-links a {
+  font-weight: 600;
+  font-size: 1.05rem;
+  color: var(--text-main);
+}
+
+.nav-links a:hover {
+  color: var(--pink-hover);
 }
 
 .hero {
