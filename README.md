@@ -12,19 +12,19 @@ Cozy Cup Cafe is a simple and cute cat-themed website for a coffee shop. It show
 
 ## Screen Captures
 
-<img src="hero-screenshot.png" alt="Hero Section" width="100%">
+<img src="img/hero-screenshot.png" alt="Hero Section" width="100%">
 
 *Home section with the moving cat picture and welcome buttons.*
 
-<img src="menu-screenshot.png" alt="Menu Section" width="100%">
+<img src="img/menu-screenshot.png" alt="Menu Section" width="100%">
 
 *Menu section showing drinks and food items with prices.*
 
-<img src="about-screenshot.png" alt="About Section" width="100%">
+<img src="img/about-screenshot.png" alt="About Section" width="100%">
 
 *About section explaining what our café is about.*
 
-<img src="contact-screenshot.png" alt="Contact Section" width="100%">
+<img src="img/contact-screenshot.png" alt="Contact Section" width="100%">
 
 *Contact section with location, open hours, and message box.*
 
