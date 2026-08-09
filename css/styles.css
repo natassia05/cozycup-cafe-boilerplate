@@ -58,6 +58,87 @@ ul {
   list-style: none;
 }
 
+.container {
+  width: 1140px;
+  margin: 0 auto;
+}
+
+.section {
+  padding: 80px 0;
+}
+
+.section-header {
+  text-align: center;
+  width: 650px;
+  margin: 0 auto 50px auto;
+}
+
+.section-header h2 {
+  font-size: 2.25rem;
+  margin-top: 8px;
+  margin-bottom: 12px;
+  color: var(--pink-hover);
+}
+
+.section-header p {
+  color: var(--text-muted);
+  font-size: 1.1rem;
+}
+
+.sub-title {
+  text-transform: uppercase;
+  font-size: 0.85rem;
+  font-weight: 700;
+  letter-spacing: 1.5px;
+  color: var(--blue-hover);
+}
+
+.btn {
+  display: inline-block;
+  padding: 12px 28px;
+  font-weight: 600;
+  font-size: 1rem;
+  border-radius: 50px;
+  cursor: pointer;
+  border: 2px solid transparent;
+  transition: var(--transition);
+  text-align: center;
+}
+
+.btn-primary {
+  background-color: var(--pink-primary);
+  color: var(--surface-white);
+  box-shadow: var(--shadow-cute);
+}
+
+.btn-primary:hover {
+  background-color: var(--pink-hover);
+  transform: translateY(-3px) scale(1.02);
+}
+
+.btn-secondary {
+  background-color: var(--blue-primary);
+  color: var(--surface-white);
+  box-shadow: var(--shadow-blue);
+}
+
+.btn-secondary:hover {
+  background-color: var(--blue-hover);
+  transform: translateY(-3px) scale(1.02);
+}
+
+.badge {
+  display: inline-block;
+  background-color: var(--pink-soft);
+  color: var(--pink-hover);
+  padding: 8px 18px;
+  border-radius: 50px;
+  font-size: 0.9rem;
+  font-weight: 600;
+  margin-bottom: 16px;
+  border: 2px dashed var(--pink-primary);
+}
+
 nav {
     display: flex;
     justify-content: space-between;
